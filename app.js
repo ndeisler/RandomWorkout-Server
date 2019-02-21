@@ -23,7 +23,7 @@ app.use("/admin", exer);
 
 app.use("/user", user);
 
-// app.use(require("./middleware/validate-session"));
+app.use(require("./middleware/validate-session"));
 
 app.use("/log", log);
 
